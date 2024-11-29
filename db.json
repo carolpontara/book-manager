@@ -1,0 +1,200 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Customer",
+      "email": "customer@gmail.com",
+      "password": "user123",
+      "role": "user"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "published": "1949-06-08",
+      "coverImageUrl": "/images/books/1984.png",
+      "description": "A dystopian novel set in a totalitarian society ruled by the Party and its leader, Big Brother. It explores themes of surveillance, truth, and individual freedom."
+    },
+    {
+      "id": "2",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Fiction",
+      "published": "1960-07-11",
+      "coverImageUrl": "/images/books/to-kill-a-mockingbird.png",
+      "description": "A novel set in the American South during the 1930s that follows the struggles of a young girl, Scout Finch, as her father, lawyer Atticus Finch, defends a black man wrongfully accused of rape."
+    },
+    {
+      "id": "3",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classic",
+      "published": "1925-04-10",
+      "coverImageUrl": "/images/books/the-great-gatsby.png",
+      "description": "A story of wealth, love, and tragedy, centered around the mysterious Jay Gatsby and his obsession with the beautiful Daisy Buchanan."
+    },
+    {
+      "id": "4",
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "genre": "Adventure",
+      "published": "1851-10-18",
+      "coverImageUrl": "/images/books/moby-dick.png",
+      "description": "The epic tale of Captain Ahab's obsessive quest to hunt down the great white whale, Moby Dick, which represents the ultimate challenge and symbol of nature's power."
+    },
+    {
+      "id": "5",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "published": "1813-01-28",
+      "coverImageUrl": "/images/books/pride-and-prejudice.png",
+      "description": "A romantic novel that explores the issues of class, marriage, and morality as seen through the lives of Elizabeth Bennet and her family."
+    },
+    {
+      "id": "6",
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "genre": "Historical Fiction",
+      "published": "1869-03-01",
+      "coverImageUrl": "/images/books/war-and-peace.png",
+      "description": "An epic novel set during the Napoleonic wars, depicting the lives of several aristocratic families as they navigate love, loss, and the impact of war."
+    },
+    {
+      "id": "7",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "genre": "Fiction",
+      "published": "1951-07-16",
+      "coverImageUrl": "/images/books/the-catcher-in-the-rye.png",
+      "description": "A story about teenage alienation and rebellion, following the journey of Holden Caulfield as he struggles with the phoniness of the adult world."
+    },
+    {
+      "id": "8",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "published": "1937-09-21",
+      "coverImageUrl": "/images/books/the-hobbit.png",
+      "description": "A fantasy adventure tale about Bilbo Baggins, a hobbit who joins a company of dwarves to reclaim their homeland from the dragon Smaug."
+    },
+    {
+      "id": "9",
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "genre": "Dystopian",
+      "published": "1932-08-01",
+      "coverImageUrl": "/images/books/brave-new-world.png",
+      "description": "A novel that explores the dangers of a highly controlled, technologically advanced society where people are conditioned to conform and suppress their emotions."
+    },
+    {
+      "id": "10",
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "genre": "Gothic Fiction",
+      "published": "1847-10-16",
+      "coverImageUrl": "/images/books/jane-eyre.png",
+      "description": "The story of an orphaned girl who grows up to become a governess and falls in love with her employer, Mr. Rochester, while confronting her own moral and social challenges."
+    },
+    {
+      "id": "11",
+      "title": "The Odyssey",
+      "author": "Homer",
+      "genre": "Epic Poetry",
+      "published": "circa 8th century BC",
+      "coverImageUrl": "/images/books/the-odyssey.png",
+      "description": "An ancient epic poem that tells the story of Odysseus and his long journey home after the Trojan War, encountering numerous mythical creatures and divine interventions."
+    },
+    {
+      "id": "12",
+      "title": "Catch-22",
+      "author": "Joseph Heller",
+      "genre": "Satire",
+      "published": "1961-11-08",
+      "coverImageUrl": "/images/books/catch-22.png",
+      "description": "A satirical novel that follows Captain John Yossarian, a U.S. Army Air Forces B-25 bombardier, as he tries to escape the absurd and contradictory rules of war."
+    },
+    {
+      "id": "13",
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Psychological Fiction",
+      "published": "1866-01-01",
+      "coverImageUrl": "/images/books/crime-and-punishment.png",
+      "description": "A novel that delves into the moral dilemmas and psychological struggles of Raskolnikov, a former student who commits murder and faces the consequences of his actions."
+    },
+    {
+      "id": "14",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "genre": "Philosophical Fiction",
+      "published": "1890-07-01",
+      "coverImageUrl": "/images/books/the-picture-of-dorian-gray.png",
+      "description": "A story that examines themes of vanity, hedonism, and the consequences of moral corruption through the life of Dorian Gray, who remains youthful while his portrait ages."
+    },
+    {
+      "id": "15",
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "genre": "Novel",
+      "published": "1877-01-01",
+      "coverImageUrl": "/images/books/anna-karenina.png",
+      "description": "An epic narrative of love, betrayal, and tragedy that follows the life of Anna Karenina and her doomed affair with Count Vronsky."
+    },
+    {
+      "id": "16",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Adventure",
+      "published": "1988-05-01",
+      "coverImageUrl": "/images/books/the-alchemist.png",
+      "description": "A philosophical novel that follows Santiago, a young shepherd, as he embarks on a journey to find his personal legend and the true meaning of happiness."
+    },
+    {
+      "id": "17",
+      "title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "genre": "Epic Poetry",
+      "published": "1320-01-01",
+      "coverImageUrl": "/images/books/the-divine-comedy.png",
+      "description": "An epic poem that takes the reader through the realms of Hell, Purgatory, and Heaven, exploring themes of sin, redemption, and divine justice."
+    },
+    {
+      "id": "18",
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "genre": "Novel",
+      "published": "1605-01-16",
+      "coverImageUrl": "/images/books/don-quixote.png",
+      "description": "A classic novel that tells the story of a man, Don Quixote, who sets out on a chivalrous adventure to revive knightly virtues, with humorous and poignant outcomes."
+    },
+    {
+      "id": "19",
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "genre": "Dystopian Fiction",
+      "published": "1953-10-19",
+      "coverImageUrl": "/images/books/fahrenheit-451.png",
+      "description": "A dystopian novel about a future society where books are banned, and firemen are tasked with burning any that are found. The story follows Montag, a fireman who questions the world he lives in."
+    },
+    {
+      "id": "20",
+      "title": "The Sun Also Rises",
+      "author": "Ernest Hemingway",
+      "genre": "Modernist Fiction",
+      "published": "1926-10-22",
+      "coverImageUrl": "/images/books/the-sun-also-rises.png",
+      "description": "A novel that follows a group of expatriates in the 1920s as they navigate love, loss, and the aftermath of World War I."
+    }
+  ]
+}
