@@ -195,24 +195,6 @@
       "published": "1926-10-22",
       "coverImageUrl": "/images/books/the-sun-also-rises.png",
       "description": "A novel that follows a group of expatriates in the 1920s as they navigate love, loss, and the aftermath of World War I."
-    },
-    {
-      "id": 0,
-      "title": "Harry Potter E A Pedra Filosofal",
-      "author": "J.K. Rowling",
-      "genre": "Mystical",
-      "published": "2024-10-29",
-      "coverImageUrl": "/images/books/capa.jpg",
-      "description": "rtesd"
-    },
-    {
-      "id": 21,
-      "title": "Harry Potter E A Pedra Filosofal",
-      "author": "J.K. Rowling",
-      "genre": "Mystical",
-      "published": "2024-10-30",
-      "coverImageUrl": "blob:http://localhost:3000/7b5578ba-129f-4843-9ec1-e356a4293ede",
-      "description": "teste"
     }
   ]
 }
