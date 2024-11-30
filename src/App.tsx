@@ -11,6 +11,7 @@ import CreateBook from './pages/CreateBook';
 import ManageUsers from './pages/ManageUsers';
 import CreateUser from './pages/CreateUser';
 import EditUser from './pages/EditUser';
+import RegisterPage from './pages/RegisterPage';
 
 const queryClient = new QueryClient();
 
@@ -30,7 +31,7 @@ function App() {
               <Route path="/manage-users" element={<ManageUsers />} />
               <Route path="/users/create" element={<CreateUser/>} />
               <Route path="/users/edit/:id" element={<EditUser />} />
-
+              <Route path="/register" element={<RegisterPage/>}/>
             </Routes>
           </div>
         </Router>
