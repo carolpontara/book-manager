@@ -7,6 +7,7 @@ import BookDetailPage from './pages/BookDetailPage';
 import { AuthProvider } from './context/AuthContext';
 import ManageBooks from './pages/ManageBooks';
 import EditBook from './pages/EditBook';
+import CreateBook from './pages/CreateBook';
 
 const queryClient = new QueryClient();
 
@@ -22,8 +23,8 @@ function App() {
               <Route path="/books/:id" element={<BookDetailPage />} />
               <Route path="/manage-books" element={<ManageBooks />} />
               <Route path="/books/edit/:id" element={<EditBook />} />
-
-{/* <Route path="/manage-users" element={<ManageUsers />} /> */}
+              <Route path='/books/create' element={<CreateBook />} />
+              {/* <Route path="/manage-users" element={<ManageUsers />} /> */}
 
             </Routes>
           </div>
