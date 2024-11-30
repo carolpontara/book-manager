@@ -1,46 +1,60 @@
-# Getting Started with Create React App
+📚 Book Manager - Story Cloud
+Book Manager é um projeto de gerenciamento de usuários e livros, desenvolvido com foco em simplicidade e eficiência. Ele é alimentado por um servidor JSON local que simula uma API para o armazenamento de dados de usuários e livros.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Tecnologias Utilizadas
+React para a interface do usuário.
+TypeScript para tipagem estática e maior segurança no código.
+JSON Server para simular um servidor RESTful para armazenar dados.
+React Router para navegação entre as páginas.
+🛠️ Como Executar o Projeto
+1. Clone o repositório:
 
-## Available Scripts
+git clone https://github.com/seu-usuario/book-manager.git
+cd book-manager
+2. Instale as dependências:
 
-In the project directory, you can run:
+npm install
+3. Inicie o servidor JSON Server:
+Certifique-se de ter o JSON Server instalado globalmente. Caso não tenha, instale com o seguinte comando:
 
-### `npm start`
+npm install -g json-server
+Em seguida, inicie o servidor com:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+npx json-server --watch db.json --port 3001
+4. Execute o projeto React:
+Em outro terminal, execute o comando para iniciar o servidor de desenvolvimento do React:
+npm start
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+📂 Estrutura do Projeto
 
-### `npm test`
+book-manager/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── context/      # Contém o contexto de autenticação
+│   ├── pages/        # Páginas da aplicação (ex: Login, Register)
+│   ├── components/   # Componentes reutilizáveis
+│   ├── App.tsx       # Componente principal
+│   └── index.tsx     # Ponto de entrada da aplicação
+│
+├── db.json           # Banco de dados fictício para o JSON Server
+└── README.md         # Este arquivo de documentação
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🌐 Endpoints da API
+O projeto utiliza o JSON Server para emular uma API com as seguintes rotas:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. /users
+Método: GET, POST
+Descrição: Retorna todos os usuários cadastrados. Permite também a adição de novos usuários.
+2. /books
+Método: GET, POST
+Descrição: Retorna todos os livros cadastrados. Permite também a adição de novos livros.
+✨ Funcionalidades
+Login de usuários: Interface de login com autenticação simulada.
+Registro de novos usuários: Tela de registro para criar contas de usuários.
+Listagem de livros: Exibição de uma lista de livros cadastrados.
+Adição de livros: Interface para cadastrar novos livros.
+Edição de livros e usuários
+Delete de livros e usuários
