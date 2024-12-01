@@ -12,7 +12,7 @@ Book Manager é um projeto de gerenciamento de usuários e livros, desenvolvido 
 ## 🛠️ Como Executar o Projeto
 ### 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/book-manager.git
+git clone https://github.com/carolpontara/book-manager.git
 cd book-manager
 ```
 
