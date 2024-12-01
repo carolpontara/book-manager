@@ -24,20 +24,17 @@ npm install
 
 ### 3. Inicie o servidor JSON Server:
 Certifique-se de ter o JSON Server instalado globalmente. Caso não tenha, instale com o seguinte comando:
-
 ```bash
 npm install -g json-server
 ```
 
 Em seguida, inicie o servidor com:
-
 ```bash
 npx json-server --watch db.json --port 3001
 ```
 
 ### 4. Execute o projeto React:
 Em outro terminal, execute o comando para iniciar o servidor de desenvolvimento do React:
-
 ```bash
 npm start
 ```
