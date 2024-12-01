@@ -1,5 +1,4 @@
 
-```markdown
 # 📚 Book Manager - Story Cloud
 
 Book Manager é um projeto de gerenciamento de usuários e livros, desenvolvido com foco em simplicidade e eficiência. Ele é alimentado por um servidor JSON local que simula uma API para o armazenamento de dados de usuários e livros.
@@ -76,4 +75,4 @@ O projeto utiliza o JSON Server para emular uma API com as seguintes rotas:
 - **Adição de livros**: Interface para cadastrar novos livros.
 - **Edição de livros e usuários**
 - **Delete de livros e usuários**
-```
+
