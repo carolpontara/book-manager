@@ -62,9 +62,9 @@ const ManageBooks = () => {
   return (
     <div className="min-h-screen bg-gray-900 text-white p-6">
       <div className="mb-4 flex items-center justify-between">
-        <button
-          onClick={() => window.history.back()}
-          className="flex items-center gap-2 px-4 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg"
+      <button
+            onClick={() => navigate("/books")}
+            className="flex items-center gap-2 px-4 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg"
         >
           <FaArrowLeft />
         </button>
